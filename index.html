@@ -837,6 +837,7 @@
           .fail(function (error) {
             alert("Oops... " + JSON.stringify(error));
           });
+          window.confirm("Thanks! We have received your message.")
       }
 
       document.addEventListener("readystatechange", (event) => {
